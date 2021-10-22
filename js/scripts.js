@@ -9,6 +9,8 @@ $(document).ready(function() {
     const yourAge = parseInt($("input#age").val());
     const yourDOB = $("#born").val();
     const favColor = $("#color").val();
+    const yourAlma = $("#almamater").val();
+    console.log(yourAlma);
     const favPodcast = $("#favpodcast").val();
     const favCereal = $("input:radio[name=cereal]:checked").val();
 
