@@ -1,19 +1,20 @@
 $(document).ready(function() {
-  $('form#language').submit(function(event) {
+  $('form#Language').submit(function(event) {
     event.preventDefault();
     $('#csharp').hide();
     $('#javascript').hide();
     $('#pyhton').hide();
 
-    const yourAge = $("#age").val();
+    const age = parseInt($("input#age").val());
+    console.log("It works so far!");
     const yourDOB = $("#born").val();
     const favColor = $("#color").val();
     const favPodcast = $("#favpodcast").val();
     const favCereal = $("input:radio[name=cereal]:checked").val();
 
-    if (age < 12) {
+    if (favCereal === "Bacon") {
       $('#csharp').show();
-    } else if (age >= 12 && age <= 20) {
+    } else if (favCereal === "Cheerios") {
       $('#javascript').show();
     } else {
       $('#python').show();
