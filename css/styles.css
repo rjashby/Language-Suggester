@@ -12,9 +12,17 @@ body {
   color: tan;
 }
 
+.opening {
+  text-align: left;
+  color: black;
+  font-family: sans-serif;
+  font-size: x-large;
+}
+
 h2  {
   text-align: center;
   color: tan;
+  text-decoration: underline;
 }
 
 .form-group {

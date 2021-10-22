@@ -1,9 +1,9 @@
 $(document).ready(function() {
-  $('form#Language').submit(function(event) {
+  $("form#Language").submit(function(event) {
     event.preventDefault();
-    $('#csharp').hide();
-    $('#javascript').hide();
-    $('#python').hide();
+    $("#csharp").hide();
+    $("#javascript").hide();
+    $("#python").hide();
 
     const firstName = $("#name").val();
     const yourAge = parseInt($("input#age").val());
@@ -13,8 +13,8 @@ $(document).ready(function() {
     const favPodcast = $("#favpodcast").val();
     const favCereal = $("input:radio[name=cereal]:checked").val();
 
-    if ($('#name').val() == '') {
-      alert('Please Enter Your Name');
+    if ($("#name").val() == "") {
+      alert("Please Enter Your Name");
     }
     
     if (favCereal === "Bacon" || (favPodcast === "Freakonomics")) {
