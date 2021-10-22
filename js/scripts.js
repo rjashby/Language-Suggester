@@ -3,10 +3,9 @@ $(document).ready(function() {
     event.preventDefault();
     $('#csharp').hide();
     $('#javascript').hide();
-    $('#pyhton').hide();
+    $('#python').hide();
 
     const age = parseInt($("input#age").val());
-    console.log("It works so far!");
     const yourDOB = $("#born").val();
     const favColor = $("#color").val();
     const favPodcast = $("#favpodcast").val();
