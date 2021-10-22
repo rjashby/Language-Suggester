@@ -29,7 +29,7 @@ _This simply program provides a user with a series of input fields (including th
 
 * _In order to utilize this page, you will need to clone a copy of this repository to your workspace using the "$ git clone {url}" in your coding terminal._ 
 * _Once cloned you will need software to edit and further contribute to the code. You can download the free code editor, VS Code, at https://code.visualstudio.com/_.
-* _Once installed, open the folder of the cloned repository, with will contain the HTML index, bootstrap.css and jQuery.js files, along with person style and script pages for more personal edits._
+* _Once installed, open the folder of the cloned repository, with will contain the HTML index, bootstrap.css and jQuery.js files, along with separate style and script pages for more personal edits._
 * _You can now open each of the individual files and edit them as you see git on VS Code._
 * _As you add, edit, and change your code, the command "$ git status" will inform you what has been recently altered in the git._
 * _Once any changes are made, utilize the command "$ git add ." to add the necessary files to be committed_
