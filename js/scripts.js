@@ -22,6 +22,9 @@ $(document).ready(function() {
     } else if (favCereal === "Cheerios" && (yourAge <= 25)) {
       $("#insertname2").text(firstName);
       $("#javascript").fadeIn();
+    } else if (favCereal === "Golden Grahams" && (yourAlma === "Jedi Academy")) {
+      $("#insertname2").text(firstName);
+      $("#javascript").fadeIn();
     } else {
       $("#insertname3").text(firstName);
       $("#python").fadeIn();
