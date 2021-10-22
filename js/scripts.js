@@ -12,11 +12,11 @@ $(document).ready(function() {
     const favCereal = $("input:radio[name=cereal]:checked").val();
 
     if (favCereal === "Bacon" || (favPodcast === "Freakonomics")) {
-      $('#csharp').show();
+      $('#csharp').fadeIn();
     } else if (favCereal === "Cheerios" && (yourAge <= 25)) {
-      $('#javascript').show();
+      $('#javascript').fadeIn();
     } else {
-      $('#python').show();
+      $('#python').fadeIn();
     }
   });
 });

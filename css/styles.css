@@ -9,18 +9,19 @@ body {
   border: 2px solid black;
   padding: 5px;
   font-family: cursive;
-  color: coral;
+  color: tan;
 }
 
 h2  {
   text-align: center;
+  color: tan;
 }
 
 .form-group {
   margin: 5px;
   border: 2px solid slategray;
   padding: 5px;
-  color: coral;
+  color: tan;
   text-align: left;
 }
 
