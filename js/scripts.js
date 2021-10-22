@@ -5,15 +5,15 @@ $(document).ready(function() {
     $('#javascript').hide();
     $('#python').hide();
 
-    const age = parseInt($("input#age").val());
+    const yourAge = parseInt($("input#age").val());
     const yourDOB = $("#born").val();
     const favColor = $("#color").val();
     const favPodcast = $("#favpodcast").val();
     const favCereal = $("input:radio[name=cereal]:checked").val();
 
-    if (favCereal === "Bacon") {
+    if (favCereal === "Bacon" || (favPodcast === "Freakonomics")) {
       $('#csharp').show();
-    } else if (favCereal === "Cheerios") {
+    } else if (favCereal === "Cheerios" && (yourAge <= 25)) {
       $('#javascript').show();
     } else {
       $('#python').show();
