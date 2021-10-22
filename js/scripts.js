@@ -10,7 +10,6 @@ $(document).ready(function() {
     const yourDOB = $("#born").val();
     const favColor = $("#color").val();
     const yourAlma = $("#almamater").val();
-    console.log(yourAlma);
     const favPodcast = $("#favpodcast").val();
     const favCereal = $("input:radio[name=cereal]:checked").val();
 
@@ -18,6 +17,9 @@ $(document).ready(function() {
       $("#insertname").text(firstName);
       $("#csharp").fadeIn();
     } else if (favCereal === "Cheerios" && (yourAge <= 25)) {
+      $("#insertname").text(firstName);
+      $("#javascript").fadeIn();
+    } else if (yourAlma === "Jedi Academy" && (favCereal === "Golden Grahams")) {
       $("#insertname").text(firstName);
       $("#javascript").fadeIn();
     } else {
