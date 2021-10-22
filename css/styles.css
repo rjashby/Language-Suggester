@@ -45,16 +45,28 @@ img {
   display: none;
   text-align: left;
   color: black;
+  margin: 8px;
+  border: 2px solid slategray;
+  padding: 8px;
+  box-sizing: border-box;
 }
 
 #javascript {
   display: none;
   text-align: left;
   color: black;
+  margin: 8px;
+  border: 2px solid slategray;
+  padding: 8px;
+  box-sizing: border-box;
 }
 
 #python {
   display: none;
   text-align: left;
   color: black;
+  margin: 8px;
+  border: 2px solid slategray;
+  padding: 8px;
+  box-sizing: border-box;
 }

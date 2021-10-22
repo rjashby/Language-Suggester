@@ -1,6 +1,5 @@
 $(document).ready(function() {
   $("form#Language").submit(function(event) {
-    event.preventDefault();
     $("#csharp").hide();
     $("#javascript").hide();
     $("#python").hide();
@@ -18,17 +17,15 @@ $(document).ready(function() {
     }
     
     if (favCereal === "Bacon" || (favPodcast === "Freakonomics")) {
-      $("#insertname").text(firstName);
+      $("#insertname1").text(firstName);
       $("#csharp").fadeIn();
     } else if (favCereal === "Cheerios" && (yourAge <= 25)) {
-      $("#insertname").text(firstName);
-      $("#javascript").fadeIn();
-    } else if (yourAlma === "Jedi Academy" && (favCereal === "Golden Grahams")) {
-      $("#insertname").text(firstName);
+      $("#insertname2").text(firstName);
       $("#javascript").fadeIn();
     } else {
-      $("#insertname").text(firstName);
+      $("#insertname3").text(firstName);
       $("#python").fadeIn();
     }
+    event.preventDefault();
   });
 });
