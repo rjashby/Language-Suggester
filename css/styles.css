@@ -14,7 +14,7 @@ img {
   margin: 3px;
   border: 2px solid black;
   padding: 3px;
-  object-fit: cover;
+  object-fit: scale-down;
 }
 #csharp {
   display: none;
