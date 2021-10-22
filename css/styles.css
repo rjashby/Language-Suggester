@@ -8,13 +8,29 @@ body {
   margin: 5px;
   border: 2px solid black;
   padding: 5px;
+  font-family: cursive;
+  color: coral;
+}
+
+h2  {
+  text-align: center;
+}
+
+.form-group {
+  margin: 5px;
+  border: 2px solid slategray;
+  padding: 5px;
+  color: coral;
+  text-align: left;
 }
 
 img {
+  width: auto;
+  height: 300px;
   margin: 3px;
   border: 2px solid black;
   padding: 3px;
-  object-fit: scale-down;
+  object-fit: contain;
 }
 #csharp {
   display: none;
