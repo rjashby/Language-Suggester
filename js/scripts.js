@@ -13,14 +13,14 @@ $(document).ready(function() {
     const favCereal = $("input:radio[name=cereal]:checked").val();
 
     if (favCereal === "Bacon" || (favPodcast === "Freakonomics")) {
-      $("#name").show(firstName);
-      $('#csharp').fadeIn();
+      $("#insertname").text(firstName);
+      $("#csharp").fadeIn();
     } else if (favCereal === "Cheerios" && (yourAge <= 25)) {
-      $("#name").show(firstName);
-      $('#javascript').fadeIn();
+      $("#insertname").text(firstName);
+      $("#javascript").fadeIn();
     } else {
-      $("#name").show(firstName);
-      $('#python').fadeIn();
+      $("#insertname").text(firstName);
+      $("#python").fadeIn();
     }
   });
 });

@@ -38,9 +38,9 @@ _This simply program provides a user with a series of input fields (including th
 * _The command "$ git log" will show the history of the commits that have been made. If the list is long, you may need to type the letter "Q" on your keyboard to return to your code terminal._
 * If you'd like, you can sign up for own Github account, so you can store any works of your own to share and/or publish, which can be done for free at https://github.com/_.  
 * _Once you have your Github account, you can create your own repositories to share with others and publish as you see fit._
-* _Create a way to save your changes to your own personal Github account by adding a remote to your page via the command "$ git remote add {nickname for your remote} {url of your github repository}."_
+* _Create a way to save your changes to your own personal Github account by adding a remote to your page via the command "$ git remote add {nickname for your remote} {url of your Github repository}."_
 * _For example, the command "$ git remote add ra https://github.com/rjashby/interior-decorator," would add a new remote called "ra" located at "https://github.com/rjashby/interior-decorator".
-* _To "push" and save the changes to your Github repository, use the command "$git push {nickname for your remote} {url of your github repository}."_ 
+* _To "push" and save the changes to your Github repository, use the command "$git push {nickname for your remote} {url of your Github repository}."_ 
 *_"Pushing" your commits saves them to the cloud server on Github, and allows you (or someone else) to clone down your saved repository in the same manner provided above._
 
 ## Known Bugs 
