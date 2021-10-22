@@ -6,11 +6,17 @@ $(document).ready(function() {
     $('#python').hide();
 
     const firstName = $("#name").val();
+    console.log(firstName);
     const yourAge = parseInt($("input#age").val());
+    console.log(yourAge);
     const yourDOB = $("#born").val();
+    console.log(yourDOB);
     const favColor = $("#color").val();
+    console.log(favColor);
     const favPodcast = $("#favpodcast").val();
+    console.log(favPodcast);
     const favCereal = $("input:radio[name=cereal]:checked").val();
+    console.log(favCereal);
 
     if (favCereal === "Bacon" || (favPodcast === "Freakonomics")) {
       $("#insertname").text(firstName);
