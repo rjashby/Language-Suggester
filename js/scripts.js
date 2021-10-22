@@ -13,6 +13,10 @@ $(document).ready(function() {
     const favPodcast = $("#favpodcast").val();
     const favCereal = $("input:radio[name=cereal]:checked").val();
 
+    if ($('#name').val() == '') {
+      alert('Please Enter Your Name');
+    }
+    
     if (favCereal === "Bacon" || (favPodcast === "Freakonomics")) {
       $("#insertname").text(firstName);
       $("#csharp").fadeIn();
