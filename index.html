@@ -19,18 +19,41 @@
       <input id="age" class="form-control" type="text">
     </div>
     <div class="form-group">
-      <label for="firstName">Enter Your Age:</label>
-      <input id="age" class="form-control" type="text">
+      <label for="born"><h2>Enter Your Date of birth:</h2></label>
+      <input id="born" class="form-control" type="date">
     </div>
     <div class="form-group">
-      <label for="firstName">Enter Your Age:</label>
-      <input id="age" class="form-control" type="text">
+      <label for="color"><h2>What is your favorite color?</h2></label>
+      <input id="color" class="form-control" type="color">
     </div>
-    <div class="form-group">
-      <label for="firstName">Enter Your Age:</label>
-      <input id="age" class="form-control" type="text">
+    <h2>Choose your favorite podcast:</h2>
+    <select class="form-control" id="favPodcast">
+      <option>How Did This Get Made?</option>
+      <option>The Bill Simmons Podcast</option>
+      <option>Freakonomics</option>
+      <option>Two Bears One Cave</option>
+    </select>
+    <br>
+    <h2>Choose your type of cereal:</h2>
+    <div class="radio">
+      <label>
+        <input type="radio" name="cereal" value="Golden Grahams" checked>
+        Golden Grahams
+      </label>
     </div>
-    <button type="submit" class="btn-light">Submit</button>
+    <div class="radio">
+      <label>
+        <input type="radio" name="cereal" value="Cheerios">
+        Cheerios
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="cereal" value="Bacon">
+        Bacon
+      </label>
+    </div>
+    <button type="submit" class="btn-dark">Submit</button>
     <div id="csharp">
       <h3>Looks Like C# is the Language For You!</h3>
       <img src="img/csharp.jpeg">
