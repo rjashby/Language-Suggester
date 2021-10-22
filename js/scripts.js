@@ -13,14 +13,13 @@ $(document).ready(function() {
     const favCereal = $("input:radio[name=cereal]:checked").val();
 
     if (favCereal === "Bacon" || (favPodcast === "Freakonomics")) {
-      $("#name").text(firstName);
+      $("#name").show(firstName);
       $('#csharp').fadeIn();
     } else if (favCereal === "Cheerios" && (yourAge <= 25)) {
-      $("#name").text(firstName);
+      $("#name").show(firstName);
       $('#javascript').fadeIn();
-     
     } else {
-      $("#name").text(firstName);
+      $("#name").show(firstName);
       $('#python').fadeIn();
     }
   });
