@@ -31,6 +31,7 @@ _This simply program provides a user with a series of input fields (including th
 * _Once cloned you will need software to edit and further contribute to the code. You can download the free code editor, VS Code, at https://code.visualstudio.com/_.
 * _Once installed, open the folder of the cloned repository, with will contain the HTML index, bootstrap.css and jQuery.js files, along with separate style and script pages for more personal edits._
 * _You can now open each of the individual files and edit them as you see git on VS Code._
+* _To open the cloned project, simply go to the folder/directory you to which you cloned the project, and open the index.html file in your browser._
 * _As you add, edit, and change your code, the command "$ git status" will inform you what has been recently altered in the git._
 * _Once any changes are made, utilize the command "$ git add ." to add the necessary files to be committed_
 * _To commit any changes, use the command "$ git commit -m "description of what was altered for ease of reference."_

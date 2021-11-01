@@ -1,5 +1,6 @@
 $(document).ready(function() {
   $("form#Language").submit(function(event) {
+    event.preventDefault();
     $("#csharp").hide();
     $("#javascript").hide();
     $("#python").hide();
@@ -13,6 +14,9 @@ $(document).ready(function() {
     const favCereal = $("input:radio[name=cereal]:checked").val();
 
     if ($("#name").val() == "") {
+      $("#csharp").hide();
+      $("#javascript").hide();
+      $("#python").hide();
       alert("Please Enter Your Name");
     }
     
@@ -29,6 +33,5 @@ $(document).ready(function() {
       $("#insertname3").text(firstName);
       $("#python").fadeIn();
     }
-    event.preventDefault();
   });
 });
